@@ -1,4 +1,4 @@
 ﻿
-loginByPassword('emp' , 'emp');
+loginByPassword('emp' , 'emp'); 
 var user = currentUser();
 debugger;
