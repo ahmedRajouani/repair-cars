@@ -2,129 +2,253 @@
 
 <dbInfo name="Model" uuid="DEB2380315EE8E47AF7052ECFC4FADBC"/>
 
-<dataClasses name="Car" className="Car" collectionName="CarCollection" scope="public" uuid="4AACFD0F2C8F614ABA4D69263DAB13F2" tablePos="2">
+<extraProperties ____objectunic="true" version="1">
+
+	<model ____objectunic="true">
+
+		<relationCurve ____objectunic="true" run="true" mode="1"/>
+
+	</model>
+
+	<classes ____objectunic="true">
+
+		<Car ____objectunic="true" panelColor="#D88CFF">
+
+			<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+				<position ____objectunic="true" X="383" Y="40"/>
+
+			</panel>
+
+		</Car>
+
+		<Customer ____objectunic="true" panelColor="#fff">
+
+			<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+				<position ____objectunic="true" X="25" Y="40"/>
+
+			</panel>
+
+		</Customer>
+
+		<Employee ____objectunic="true" panelColor="#fff">
+
+			<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+				<position ____objectunic="true" X="743" Y="207"/>
+
+			</panel>
+
+		</Employee>
+
+		<Repair ____objectunic="true" panelColor="#fff">
+
+			<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+				<position ____objectunic="true" X="359" Y="461"/>
+
+			</panel>
+
+		</Repair>
+
+		<User ____objectunic="true" panelColor="#4FA997">
+
+			<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+				<position ____objectunic="true" X="29" Y="486"/>
+
+			</panel>
+
+		</User>
+
+		<Invoice ____objectunic="true" panelColor="#B7DDE8">
+
+			<panel ____objectunic="true" isOpen="false" pathVisible="true">
+
+				<position ____objectunic="true" X="756" Y="566"/>
+
+			</panel>
+
+		</Invoice>
+
+		<Report ____objectunic="true" panelColor="#76923C">
+
+			<panel ____objectunic="true" isOpen="true" pathVisible="true">
+
+				<position ____objectunic="true" X="305" Y="20"/>
+
+			</panel>
+
+		</Report>
+
+	</classes>
+
+</extraProperties>
+
+<dataClasses name="Car" className="Car" collectionName="CarCollection" scope="public" uuid="4AACFD0F2C8F614ABA4D69263DAB13F2">
 
 	<extraProperties ____objectunic="true" panelColor="#D88CFF">
 
 		<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
 			<position ____objectunic="true" X="383" Y="40"/>
-</panel>
-</extraProperties>
 
-	<attributes name="ID" kind="storage" scope="public" uuid="9A907D73314B9A42B19B342E359E384B" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+		</panel>
 
-	<attributes name="regNumber" kind="storage" scope="public" uuid="58A689A0F1DD6C44BF49AD9EA2A731DF" fieldPos="2" type="string"/>
+	</extraProperties>
 
-	<attributes name="model" kind="storage" scope="public" uuid="05F6BDF43A894643B140A1A4A8D966C6" fieldPos="3" type="string"/>
+	<attributes name="ID" kind="storage" scope="public" uuid="9A907D73314B9A42B19B342E359E384B" unique="true" autosequence="true" type="long" indexKind="btree" primKey="true"/>
 
-	<attributes name="year" kind="storage" scope="public" uuid="AE0B1FA0B6CCB94EB76E1E91112F0981" fieldPos="4" type="number"/>
+	<attributes name="regNumber" kind="storage" scope="public" uuid="58A689A0F1DD6C44BF49AD9EA2A731DF" type="string"/>
 
-	<attributes name="customer" kind="relatedEntity" scope="public" type="Customer" uuid="E56F795DC8F630499B869DC4A6279332" fieldPos="5" path="Customer"/>
+	<attributes name="model" kind="storage" scope="public" uuid="05F6BDF43A894643B140A1A4A8D966C6" type="string"/>
+
+	<attributes name="year" kind="storage" scope="public" uuid="AE0B1FA0B6CCB94EB76E1E91112F0981" type="number"/>
+
+	<attributes name="customer" kind="relatedEntity" scope="public" uuid="E56F795DC8F630499B869DC4A6279332" type="Customer" path="Customer"/>
 
 	<attributes name="repairs" kind="relatedEntities" scope="public" type="RepairCollection" reversePath="true" path="car"/>
 
 </dataClasses>
 
-<dataClasses name="Customer" className="Customer" collectionName="CustomerCollection" scope="public" uuid="0BD75871C8C6EF438CEA2695F2A2D36D" tablePos="1">
+<dataClasses name="Customer" className="Customer" collectionName="CustomerCollection" scope="public" uuid="0BD75871C8C6EF438CEA2695F2A2D36D">
 
 	<extraProperties ____objectunic="true" panelColor="#fff">
 
 		<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
 			<position ____objectunic="true" X="25" Y="40"/>
-</panel>
-</extraProperties>
 
-	<attributes name="ID" kind="storage" scope="public" uuid="83E404C4B5F54E4F90D45EB91941E93C" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+		</panel>
 
-	<attributes name="fullName" kind="storage" scope="public" uuid="4D59C35A43837542AC606DA2BFFC02BC" fieldPos="2" type="string"/>
+	</extraProperties>
 
-	<attributes name="address" kind="storage" scope="public" uuid="9A98D084F676B0459997F881A34BD075" fieldPos="3" type="string"/>
+	<attributes name="ID" kind="storage" scope="public" uuid="83E404C4B5F54E4F90D45EB91941E93C" unique="true" autosequence="true" type="long" indexKind="btree" primKey="true"/>
 
-	<attributes name="zipCode" kind="storage" scope="public" uuid="6DE4E59C33A5A64BAC1EABDE146FA917" fieldPos="4" type="string"/>
+	<attributes name="fullName" kind="storage" scope="public" uuid="4D59C35A43837542AC606DA2BFFC02BC" type="string"/>
 
-	<attributes name="city" kind="storage" scope="public" uuid="53A11E0B7867DB499EA2EDF502E36D8D" fieldPos="5" type="string"/>
+	<attributes name="address" kind="storage" scope="public" uuid="9A98D084F676B0459997F881A34BD075" type="string"/>
 
-	<attributes name="Tel" kind="storage" scope="public" uuid="C4C610365870FC4BB88CE1BE12C8FCAC" fieldPos="6" type="string"/>
+	<attributes name="zipCode" kind="storage" scope="public" uuid="6DE4E59C33A5A64BAC1EABDE146FA917" type="string"/>
 
-	<attributes name="fax" kind="storage" scope="public" uuid="9DAD5A245D0DEF45A788D92846AD4437" fieldPos="7" type="string"/>
+	<attributes name="city" kind="storage" scope="public" uuid="53A11E0B7867DB499EA2EDF502E36D8D" type="string"/>
+
+	<attributes name="Tel" kind="storage" scope="public" uuid="C4C610365870FC4BB88CE1BE12C8FCAC" type="string"/>
+
+	<attributes name="fax" kind="storage" scope="public" uuid="9DAD5A245D0DEF45A788D92846AD4437" type="string"/>
 
 	<attributes name="cars" kind="relatedEntities" scope="public" type="CarCollection" reversePath="true" path="customer"/>
 
+	<attributes name="repairs" kind="relatedEntities" scope="public" type="RepairCollection" path="cars.repairs"/>
+
 </dataClasses>
 
-<dataClasses name="Employee" className="Employee" collectionName="EmployeeCollection" scope="public" uuid="EF99420445CEC84D810632C6D0D1D60F" tablePos="5">
+<dataClasses name="Employee" className="Employee" collectionName="EmployeeCollection" scope="public" uuid="EF99420445CEC84D810632C6D0D1D60F">
 
 	<extraProperties ____objectunic="true" panelColor="#fff">
 
 		<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
 			<position ____objectunic="true" X="743" Y="207"/>
-</panel>
-</extraProperties>
 
-	<attributes name="ID" kind="storage" scope="public" uuid="DDB9DF0D6344D2478576703E3FB9D430" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+		</panel>
 
-	<attributes name="firstName" kind="storage" scope="public" uuid="877643D525B251449D21AA12706E836E" fieldPos="2" type="string"/>
+	</extraProperties>
 
-	<attributes name="lastname" kind="storage" scope="public" uuid="5C3988F1C924AC488559D2F71DF8205C" fieldPos="3" type="string"/>
+	<attributes name="ID" kind="storage" scope="public" uuid="DDB9DF0D6344D2478576703E3FB9D430" unique="true" autosequence="true" type="long" indexKind="btree" primKey="true"/>
 
-	<attributes name="birthday" kind="storage" scope="public" uuid="C5D0877104A56C41B5B7908F8FD4FE03" fieldPos="4" type="date"/>
+	<attributes name="firstName" kind="storage" scope="public" uuid="877643D525B251449D21AA12706E836E" type="string"/>
+
+	<attributes name="lastname" kind="storage" scope="public" uuid="5C3988F1C924AC488559D2F71DF8205C" type="string"/>
+
+	<attributes name="birthday" kind="storage" scope="public" uuid="C5D0877104A56C41B5B7908F8FD4FE03" type="date" simpleDate="false"/>
 
 	<attributes name="repair" kind="relatedEntities" scope="public" type="RepairCollection" reversePath="true" path="employee"/>
 
-	<attributes name="currentSalary" kind="storage" scope="public" uuid="F4B816ACCAE06144AA6F7F52B46FC22D" fieldPos="5" type="number"/>
+	<attributes name="currentSalary" kind="storage" scope="public" uuid="F4B816ACCAE06144AA6F7F52B46FC22D" type="number"/>
 
 </dataClasses>
 
-<dataClasses name="Repair" className="Repair" collectionName="RepairCollection" scope="public" uuid="1A72DACB6257B746BD5F95976B5920A2" tablePos="3">
+<dataClasses name="Invoice" className="Invoice" collectionName="InvoiceCollection" scope="public" uuid="C420E5D042CEED4DAB2934098B676677">
+
+	<attributes name="ID" kind="storage" scope="public" uuid="E64951890087024782FAD7C5D9ADB0D0" unique="true" autosequence="true" type="long" indexKind="btree" primKey="true"/>
+
+	<attributes name="date" kind="storage" scope="public" uuid="3551FC096370404F99FC1C8630355FD2" type="date" simpleDate="false"/>
+
+	<attributes name="totalPrice" kind="calculated" scope="public" type="number" scriptKind="javascript">
+
+		<onGet from="guidedModel.Invoice.totalPrice.onGet"/>
+
+	</attributes>
+
+	<attributes name="Customer" kind="relatedEntity" scope="public" uuid="010C59114D948D41BBC2294BAF20C35A" type="Customer" path="Customer"/>
+
+</dataClasses>
+
+<dataClasses name="Repair" className="Repair" collectionName="RepairCollection" scope="public" uuid="1A72DACB6257B746BD5F95976B5920A2">
 
 	<extraProperties ____objectunic="true" panelColor="#fff">
 
 		<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
 			<position ____objectunic="true" X="384" Y="542"/>
-</panel>
-</extraProperties>
 
-	<attributes name="ID" kind="storage" scope="public" uuid="A82DB5E6FFA8954A8ABAE26C3A87DB18" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+		</panel>
 
-	<attributes name="repairDate" kind="storage" scope="public" uuid="E1731A837CC4084D99815A8CEC1BAD4C" fieldPos="2" type="date"/>
+	</extraProperties>
 
-	<attributes name="breakdown" kind="storage" scope="public" uuid="1D7656E6BF2F4F40A7CEE92634352EE6" fieldPos="3" type="string"/>
+	<attributes name="ID" kind="storage" scope="public" uuid="A82DB5E6FFA8954A8ABAE26C3A87DB18" unique="true" autosequence="true" type="long" indexKind="btree" primKey="true"/>
 
-	<attributes name="repairInfo" kind="storage" scope="public" uuid="2B25E39DBFF12F428646E9406109A65F" fieldPos="4" type="string"/>
+	<attributes name="repairDate" kind="storage" scope="public" uuid="E1731A837CC4084D99815A8CEC1BAD4C" type="date" simpleDate="false"/>
 
-	<attributes name="km" kind="storage" scope="public" uuid="3B103C2A9BB4A948845C85E6A48DA157" fieldPos="5" type="number"/>
+	<attributes name="breakdown" kind="storage" scope="public" uuid="1D7656E6BF2F4F40A7CEE92634352EE6" type="string"/>
 
-	<attributes name="price" kind="storage" scope="public" uuid="5A01C497EBBD7242B88B5C1DEC9E84DB" fieldPos="6" type="number"/>
+	<attributes name="repairInfo" kind="storage" scope="public" uuid="2B25E39DBFF12F428646E9406109A65F" type="string"/>
 
-	<attributes name="car" kind="relatedEntity" scope="public" type="Car" uuid="5B8BAA531004424B9E897D93D2A53B2F" fieldPos="7" path="Car"/>
+	<attributes name="km" kind="storage" scope="public" uuid="3B103C2A9BB4A948845C85E6A48DA157" type="number"/>
 
-	<attributes name="employee" kind="relatedEntity" scope="public" type="Employee" uuid="9C342E361C088A4893FC78D61FBB8348" fieldPos="8" path="Employee"/>
+	<attributes name="price" kind="storage" scope="public" uuid="5A01C497EBBD7242B88B5C1DEC9E84DB" type="number"/>
+
+	<attributes name="car" kind="relatedEntity" scope="public" uuid="5B8BAA531004424B9E897D93D2A53B2F" type="Car" path="Car"/>
+
+	<attributes name="employee" kind="relatedEntity" scope="public" uuid="9C342E361C088A4893FC78D61FBB8348" type="Employee" path="Employee"/>
 
 </dataClasses>
 
-<dataClasses name="User" className="User" collectionName="UserCollection" scope="public" uuid="D8945606AB7919469F8281EAA59BC0B1" tablePos="4">
+<dataClasses name="User" className="User" collectionName="UserCollection" scope="public" uuid="D8945606AB7919469F8281EAA59BC0B1">
 
 	<extraProperties ____objectunic="true" panelColor="#4FA997">
 
 		<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
 			<position ____objectunic="true" X="23" Y="407"/>
-</panel>
-</extraProperties>
 
-	<attributes name="ID" kind="storage" scope="public" uuid="44EEB5487906514B8B6CDA1FFE16D5B1" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
+		</panel>
 
-	<attributes name="fullName" kind="storage" scope="public" uuid="1521AD195AC69948B483BBFE8C6B5CBD" fieldPos="2" type="string"/>
+	</extraProperties>
 
-	<attributes name="login" kind="storage" scope="public" uuid="981D166EEAA9E747AB63A8CAE913740A" fieldPos="3" type="string"/>
+	<attributes name="ID" kind="storage" scope="public" uuid="44EEB5487906514B8B6CDA1FFE16D5B1" unique="true" autosequence="true" type="long" indexKind="btree" primKey="true"/>
 
-	<attributes name="password" kind="storage" scope="public" uuid="0D8145598D34BC4398AE1AB1E4380318" fieldPos="4" type="string"/>
+	<attributes name="fullName" kind="storage" scope="public" uuid="1521AD195AC69948B483BBFE8C6B5CBD" type="string"/>
 
-	<attributes name="isAdmin" kind="storage" scope="public" uuid="A92EC80240E9974D8B149BDB3ABA42AB" fieldPos="5" type="bool"/>
+	<attributes name="login" kind="storage" scope="public" uuid="981D166EEAA9E747AB63A8CAE913740A" type="string"/>
+
+	<attributes name="password" kind="storage" scope="public" uuid="0D8145598D34BC4398AE1AB1E4380318" type="string"/>
+
+	<attributes name="isAdmin" kind="storage" scope="public" uuid="A92EC80240E9974D8B149BDB3ABA42AB" type="bool"/>
+
+</dataClasses>
+
+<dataClasses collectionName="ReportCollection" className="Report" uuid="C1C635FB1AF9B64BBB16C809201F3503">
+
+	<attributes name="ID" kind="storage" type="long" uuid="DAA16FB3FAFC8B4692BF41918C4B3EDF" autosequence="true" unique="true" primKey="true"/>
+
+	<attributes name="pdf" scope="public" uuid="BFE99260168B24489592ECD2271C659D" type="image" kind="storage"/>
+
+	<attributes name="pdfDate" scope="public" uuid="B9D3E53EC1CA8F4A9632465D55EEF487" type="date" kind="storage"/>
+
+	<attributes name="critere" scope="public" uuid="DCB8F79FEAC12A41AA2899F2922F3BFB" type="string" kind="storage"/>
 
 </dataClasses>
 </EntityModelCatalog>

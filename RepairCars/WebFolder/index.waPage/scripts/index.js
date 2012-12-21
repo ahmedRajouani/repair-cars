@@ -2,6 +2,9 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var button18 = {};	// @button
+	var customerEvent = {};	// @dataSource
+	var button17 = {};	// @button
 	var login1 = {};	// @login
 	var repairEvent = {};	// @dataSource
 	var button1 = {};	// @button
@@ -11,6 +14,43 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 // @endregion// @endlock
 
 // eventHandlers// @lock
+
+	button18.click = function button18_click (event)// @startlock
+	{// @endlock
+		// Add your code here
+		
+		var myFact=sources.repair.getCurrentElement();
+		var param={};
+		param.ID=myFact.ID.getValue();;
+		var xhr = new XMLHttpRequest();
+  		xhr.open('POST','/report',false);
+  		xhr.send(JSON.stringify(param));
+  		
+  		var reportID = xhr.responseText;
+  		sources.report.query('ID='+reportID);
+//		var customer = null;
+//		sources.repair.car.load({'onSuccess':function(e){e.entity.customer.load({onSuccess:function(ee){ customer=ee.entity.fullName.getValue()}})}})
+//		var car = null;
+//		sources.repair.car.load({'onSuccess':function(e){ car = e.entity.regNumber.getValue() }})
+//		alert("customer :" + customer + " car : " + car + " Date :"  + myFact.repairDate.getValue() );
+		
+	};// @lock
+
+	customerEvent.onCurrentElementChange = function customerEvent_onCurrentElementChange (event)// @startlock
+	{// @endlock
+//		if(this.getCurrentElement()){
+//		 	sources.repair1.query('car.customer.ID = ' + this.getCurrentElement().getKey() + " AND invoice=null",{
+//	 		    'onSuccess':function(e){
+//	 		        console.log(e);
+//	 			}
+//	 		});
+//	 	}
+	};// @lock
+
+	button17.click = function button17_click (event)// @startlock
+	{// @endlock
+		// Add your code here
+	};// @lock
 
 	login1.login = function login1_login (event)// @startlock
 	{// @endlock
@@ -26,12 +66,13 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	repairEvent.onCurrentElementChange = function repairEvent_onCurrentElementChange (event)// @startlock
 	{// @endlock
 		// Add your code here
-		sources.car.selectByKey(sources.car0.ID);
+		sources.car1.selectByKey(sources.car0.getCurrentElement() ? sources.car0.getCurrentElement().getKey() : null)
+	//	sources.car.selectByKey(sources.car0.ID);
 	};// @lock
 
 	button1.click = function button1_click (event)// @startlock
 	{// @endlock
-		sources.repair.car.set(sources.car);
+		sources.repair.car.set(sources.car1);
 		sources.repair.employee.set(sources.employee);
 		//sources.repair.type.set(sources.typeRepair.getSelection());
 		sources.repair.save();
@@ -66,6 +107,9 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("button18", "click", button18.click, "WAF");
+	WAF.addListener("customer", "onCurrentElementChange", customerEvent.onCurrentElementChange, "WAF");
+	WAF.addListener("button17", "click", button17.click, "WAF");
 	WAF.addListener("login1", "login", login1.login, "WAF");
 	WAF.addListener("login1", "logout", login1.logout, "WAF");
 	WAF.addListener("repair", "onCurrentElementChange", repairEvent.onCurrentElementChange, "WAF");

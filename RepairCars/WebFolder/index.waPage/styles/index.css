@@ -3,6 +3,229 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#frame1 {
+	 width: 521px;
+	 height: 539px;
+	 top: 49px;
+	 left: 438px;
+	
+	 position: absolute;
+	 
+}
+
+#button18 {
+	 width: 183px;
+	 height: 42px;
+	 top: 613px;
+	 left: 403px;
+	
+	 position: absolute;
+	 
+}
+
+#dataGrid8 {
+	 width: 410px;
+	 height: 541px;
+	 top: 49px;
+	 left: 22px;
+	
+	 position: absolute;
+	 
+}
+
+#container11 {
+	 top: 28px;
+	 bottom: 5px;
+	 left: 5px;
+	 right: 5px;
+	
+	 position: absolute;
+	 
+}
+
+#richText7 {
+	 width: 66px;
+	 height: 23px;
+	 top: 0px;
+	 left: 0px;
+	
+	 position: absolute;
+	 
+}
+
+#menuItem2 {
+	 width: 66px;
+	 height: 23px;
+	 top: 0px;
+	 left: 0px;
+	
+	 position: absolute;
+	 
+}
+
+#combobox3 {
+	 width: 164px;
+	 height: 24px;
+	 top: 379px;
+	 left: 69px;
+	
+	 position: absolute;
+	 
+}
+
+#richText6 {
+	 width: 68px;
+	 height: 17px;
+	 top: 381px;
+	 left: 14px;
+	
+	 border-top-width: 0px;
+	 border-left-width: 0px;
+	 border-right-width: 0px;
+	 border-bottom-width: 0px;
+	 
+}
+
+#combobox2 {
+	 width: 164px;
+	 height: 24px;
+	 top: 203px;
+	 left: 90px;
+	
+	 position: absolute;
+	 
+}
+
+#label1 {
+	 width: 46px;
+	 height: 14px;
+	 top: 208px;
+	 left: 39px;
+	
+	 position: absolute;
+	 
+}
+
+#label19 {
+	 width: 51px;
+	 height: 16px;
+	 top: 65px;
+	 left: 39px;
+	
+	 position: absolute;
+	 
+}
+
+#label18 {
+	 width: 13px;
+	 height: 16px;
+	 top: 23px;
+	 left: 77px;
+	
+	 position: absolute;
+	 
+}
+
+#label17 {
+	 width: 23px;
+	 height: 16px;
+	 top: 149px;
+	 left: 67px;
+	
+	 position: absolute;
+	 
+}
+
+#label16 {
+	 width: 29px;
+	 height: 16px;
+	 top: 107px;
+	 left: 61px;
+	
+	 position: absolute;
+	 
+}
+
+#label15 {
+	 width: 53px;
+	 height: 16px;
+	 top: 65px;
+	 left: 37px;
+	
+	 position: absolute;
+	 
+}
+
+#label14 {
+	 width: 13px;
+	 height: 16px;
+	 top: 23px;
+	 left: 77px;
+	
+	 position: absolute;
+	 
+}
+
+#label13 {
+	 width: 14px;
+	 height: 16px;
+	 top: 275px;
+	 left: 76px;
+	
+	 position: absolute;
+	 
+}
+
+#label12 {
+	 width: 16px;
+	 height: 16px;
+	 top: 233px;
+	 left: 74px;
+	
+	 position: absolute;
+	 
+}
+
+#label11 {
+	 width: 19px;
+	 height: 16px;
+	 top: 191px;
+	 left: 71px;
+	
+	 position: absolute;
+	 
+}
+
+#label10 {
+	 width: 41px;
+	 height: 16px;
+	 top: 149px;
+	 left: 49px;
+	
+	 position: absolute;
+	 
+}
+
+#label26 {
+	 width: 26px;
+	 height: 14px;
+	 top: 5px;
+	 left: -31px;
+	
+	 position: absolute;
+	 
+}
+
+#menuBar1 > .waf-menuItem {
+	 margin-bottom: 0px;
+	 
+}
+
+#menuBar1 > .waf-menuItem:not(.waf-menuItem-last) {
+	 margin-right: 5px;
+	 
+}
+
 #waf-body {
 	 background-image: url('/images/base.png');
 	 
@@ -63,10 +286,10 @@
 
 #container10 #Tabs #menuBar1 {
 	 z-index: 3;
-	 width: 409px;
+	 width: 428px;
 	 height: 23px;
 	 top: 5px;
-	 left: 575px;
+	 left: 549px;
 	
 	 position: absolute;
 	 
@@ -283,8 +506,8 @@
 
 #container10 #Tabs #container1 #container5 #label5 {
 	 width: 75px;
-	 height: 15px;
-	 top: 149.5px;
+	 height: 16px;
+	 top: 149px;
 	 left: 38px;
 	
 	 position: absolute;
@@ -446,17 +669,6 @@
 	 
 }
 
-#container10 #Tabs #container2 #container6 #label10 {
-	 width: 75px;
-	 height: 16px;
-	 top: 149px;
-	 left: 15px;
-	
-	 position: absolute;
-	 min-width: 75px;
-	 
-}
-
 #container10 #Tabs #container2 #container6 #textField8 {
 	 width: 130px;
 	 height: 22px;
@@ -464,17 +676,6 @@
 	 left: 95px;
 	
 	 position: absolute;
-	 
-}
-
-#container10 #Tabs #container2 #container6 #label11 {
-	 width: 75px;
-	 height: 16px;
-	 top: 191px;
-	 left: 15px;
-	
-	 position: absolute;
-	 min-width: 75px;
 	 
 }
 
@@ -488,17 +689,6 @@
 	 
 }
 
-#container10 #Tabs #container2 #container6 #label12 {
-	 width: 75px;
-	 height: 16px;
-	 top: 233px;
-	 left: 15px;
-	
-	 position: absolute;
-	 min-width: 75px;
-	 
-}
-
 #container10 #Tabs #container2 #container6 #textField10 {
 	 width: 130px;
 	 height: 22px;
@@ -506,17 +696,6 @@
 	 left: 95px;
 	
 	 position: absolute;
-	 
-}
-
-#container10 #Tabs #container2 #container6 #label13 {
-	 width: 75px;
-	 height: 16px;
-	 top: 275px;
-	 left: 15px;
-	
-	 position: absolute;
-	 min-width: 75px;
 	 
 }
 
@@ -592,22 +771,11 @@
 
 #container10 #Tabs #container3 #container7 {
 	 width: 383px;
-	 height: 560px;
+	 height: 329px;
 	 top: 15px;
 	 left: 516px;
 	
 	 position: absolute;
-	 
-}
-
-#container10 #Tabs #container3 #container7 #label14 {
-	 width: 75px;
-	 height: 16px;
-	 top: 23px;
-	 left: 15px;
-	
-	 position: absolute;
-	 min-width: 75px;
 	 
 }
 
@@ -621,17 +789,6 @@
 	 
 }
 
-#container10 #Tabs #container3 #container7 #label15 {
-	 width: 75px;
-	 height: 16px;
-	 top: 65px;
-	 left: 15px;
-	
-	 position: absolute;
-	 min-width: 75px;
-	 
-}
-
 #container10 #Tabs #container3 #container7 #textField13 {
 	 width: 130px;
 	 height: 22px;
@@ -642,17 +799,6 @@
 	 
 }
 
-#container10 #Tabs #container3 #container7 #label16 {
-	 width: 75px;
-	 height: 16px;
-	 top: 107px;
-	 left: 15px;
-	
-	 position: absolute;
-	 min-width: 75px;
-	 
-}
-
 #container10 #Tabs #container3 #container7 #textField14 {
 	 width: 130px;
 	 height: 22px;
@@ -660,17 +806,6 @@
 	 left: 95px;
 	
 	 position: absolute;
-	 
-}
-
-#container10 #Tabs #container3 #container7 #label17 {
-	 width: 75px;
-	 height: 16px;
-	 top: 149px;
-	 left: 15px;
-	
-	 position: absolute;
-	 min-width: 75px;
 	 
 }
 
@@ -707,8 +842,8 @@
 #container10 #Tabs #container3 #container7 #button15 {
 	 width: 92px;
 	 height: 22px;
-	 top: 503px;
-	 left: 240px;
+	 top: 272px;
+	 left: 238px;
 	
 	 position: absolute;
 	 
@@ -717,8 +852,8 @@
 #container10 #Tabs #container3 #container7 #button16 {
 	 width: 92px;
 	 height: 22px;
-	 top: 501px;
-	 left: 19px;
+	 top: 270px;
+	 left: 17px;
 	
 	 position: absolute;
 	 
@@ -736,22 +871,11 @@
 
 #container10 #Tabs #container4 #container8 {
 	 width: 381px;
-	 height: 753px;
+	 height: 543px;
 	 top: 13px;
 	 left: 573px;
 	
 	 position: absolute;
-	 
-}
-
-#container10 #Tabs #container4 #container8 #label18 {
-	 width: 75px;
-	 height: 16px;
-	 top: 23px;
-	 left: 15px;
-	
-	 position: absolute;
-	 min-width: 75px;
 	 
 }
 
@@ -762,17 +886,6 @@
 	 left: 95px;
 	
 	 position: absolute;
-	 
-}
-
-#container10 #Tabs #container4 #container8 #label19 {
-	 width: 75px;
-	 height: 16px;
-	 top: 65px;
-	 left: 15px;
-	
-	 position: absolute;
-	 min-width: 75px;
 	 
 }
 
@@ -788,8 +901,8 @@
 
 #container10 #Tabs #container4 #container8 #label20 {
 	 width: 75px;
-	 height: 15px;
-	 top: 146.5px;
+	 height: 16px;
+	 top: 146px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -809,8 +922,8 @@
 
 #container10 #Tabs #container4 #container8 #label21 {
 	 width: 75px;
-	 height: 15px;
-	 top: 245px;
+	 height: 16px;
+	 top: 244.5px;
 	 left: 12px;
 	
 	 position: absolute;
@@ -830,8 +943,8 @@
 
 #container10 #Tabs #container4 #container8 #label22 {
 	 width: 75px;
-	 height: 15px;
-	 top: 304.5px;
+	 height: 16px;
+	 top: 304px;
 	 left: 12px;
 	
 	 position: absolute;
@@ -851,8 +964,8 @@
 
 #container10 #Tabs #container4 #container8 #label23 {
 	 width: 75px;
-	 height: 15px;
-	 top: 344.5px;
+	 height: 16px;
+	 top: 344px;
 	 left: 11px;
 	
 	 position: absolute;
@@ -900,26 +1013,6 @@
 	 
 }
 
-#container10 #Tabs #container3 #container7 #dataGrid6 {
-	 width: 328px;
-	 height: 300px;
-	 top: 183px;
-	 left: 33px;
-	
-	 position: absolute;
-	 
-}
-
-#container10 #Tabs #container4 #container8 #dataGrid7 {
-	 width: 338px;
-	 height: 229px;
-	 top: 407px;
-	 left: 29px;
-	
-	 position: absolute;
-	 
-}
-
 #container10 #Tabs #container3 #autoForm7 {
 	 width: 469px;
 	 height: 309px;
@@ -943,8 +1036,8 @@
 #container10 #Tabs #container4 #container8 #button1 {
 	 width: 92px;
 	 height: 22px;
-	 top: 708px;
-	 left: 252px;
+	 top: 482px;
+	 left: 237px;
 	
 	 position: absolute;
 	 
@@ -953,8 +1046,8 @@
 #container10 #Tabs #container4 #container8 #button22 {
 	 width: 92px;
 	 height: 22px;
-	 top: 706px;
-	 left: 26px;
+	 top: 480px;
+	 left: 11px;
 	
 	 position: absolute;
 	 
@@ -1001,10 +1094,10 @@
 }
 
 #container10 #Tabs #container4 #container8 #label28 {
-	 width: 46px;
+	 width: 47px;
 	 height: 14px;
-	 top: 652px;
-	 left: 41px;
+	 top: 423px;
+	 left: 14px;
 	
 	 position: absolute;
 	 
@@ -1013,8 +1106,8 @@
 #container10 #Tabs #container4 #container8 #combobox1 {
 	 width: 219px;
 	 height: 24px;
-	 top: 647px;
-	 left: 92px;
+	 top: 418px;
+	 left: 66px;
 	
 	 position: absolute;
 	 
@@ -1053,8 +1146,8 @@
 #container10 #Tabs #container3 #container7 #button14 {
 	 width: 92px;
 	 height: 22px;
-	 top: 503px;
-	 left: 126px;
+	 top: 272px;
+	 left: 124px;
 	
 	 position: absolute;
 	 
@@ -1063,7 +1156,7 @@
 #container10 #Tabs #container4 #container8 #richText6 {
 	 width: 68px;
 	 height: 17px;
-	 top: 374px;
+	 top: 381px;
 	 left: 14px;
 	
 	 position: absolute;
@@ -1073,8 +1166,8 @@
 #container10 #Tabs #container4 #container8 #button17 {
 	 width: 92px;
 	 height: 22px;
-	 top: 708px;
-	 left: 138px;
+	 top: 482px;
+	 left: 123px;
 	
 	 position: absolute;
 	 
