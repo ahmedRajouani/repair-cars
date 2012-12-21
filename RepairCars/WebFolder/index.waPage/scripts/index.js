@@ -2,6 +2,8 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var button8 = {};	// @button
+	var button2 = {};	// @button
 	var button18 = {};	// @button
 	var customerEvent = {};	// @dataSource
 	var button17 = {};	// @button
@@ -14,6 +16,16 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 // @endregion// @endlock
 
 // eventHandlers// @lock
+
+	button8.click = function button8_click (event)// @startlock
+	{// @endlock
+		// Add your code here
+	};// @lock
+
+	button2.click = function button2_click (event)// @startlock
+	{// @endlock
+		// Add your code here
+	};// @lock
 
 	button18.click = function button18_click (event)// @startlock
 	{// @endlock
@@ -107,6 +119,8 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("button8", "click", button8.click, "WAF");
+	WAF.addListener("button2", "click", button2.click, "WAF");
 	WAF.addListener("button18", "click", button18.click, "WAF");
 	WAF.addListener("customer", "onCurrentElementChange", customerEvent.onCurrentElementChange, "WAF");
 	WAF.addListener("button17", "click", button17.click, "WAF");
