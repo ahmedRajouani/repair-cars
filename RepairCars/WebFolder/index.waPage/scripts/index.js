@@ -111,10 +111,10 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		
 		
 		
-		$$("container10").center({center : 'vh'});
+		$$("container10").center({center : 'h'});
 		
 		$(window).resize(function(){
-			$$("container10").center({center : 'vh'});
+			$$("container10").center({center : 'h'});
 		});
 	};// @lock
 

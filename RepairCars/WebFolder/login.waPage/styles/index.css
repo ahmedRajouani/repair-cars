@@ -4,15 +4,16 @@
 */
 
 #waf-body {
-	 background-image: url('/images/base.png');
+	 background-image: none;
 	 
 }
 
 #container1 {
+	 z-index: 1;
 	 width: 586px;
-	 height: 649px;
-	 top: 158px;
-	 left: 150px;
+	 height: 388px;
+	 top: 397px;
+	 left: 268px;
 	
 	 position: absolute;
 	 border-top-style: none;
@@ -30,30 +31,21 @@
 	 -webkit-box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 0px 0px;
 	 -moz-box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 0px 0px;
 	 box-shadow: rgba(0, 0, 0, 0.199219) 0px 0px 0px 0px;
-	 background-color: transparent;
-	 
-}
-
-#container1 #image1 {
-	 width: 568px;
-	 height: 510px;
-	 top: 16px;
-	 left: 8px;
 	
-	 position: absolute;
+	 background-color: transparent;
 	 
 }
 
 #container1 #login1 {
-	 width: 456px;
+	 z-index: 1;
+	 width: 113px;
 	 height: 80px;
-	 top: 557px;
-	 left: -97px;
+	 top: 282px;
+	 left: 241px;
 	
 	 position: absolute;
 	 text-align: left;
 	 background-color: transparent;
-	 color: rgb(51, 51, 51);
 	 font-weight: normal;
 	 border-top-style: none;
 	 border-bottom-style: none;
@@ -67,8 +59,35 @@
 	-moz-border-radius-bottomright: 0px;
 	 border-bottom-left-radius: 0px;
 	-moz-border-radius-bottomleft: 0px;
-	 font-family: Tahoma, Verdana, Segoe, sans-serif;
 	 font-size: 24px;
+	 font-family: 'Lucida Bright', Georgia, serif;
+	 text-decoration: underline;
+	 color: rgb(76, 76, 76);
+	 
+}
+
+#image2 {
+	 z-index: 0;
+	 top: 0px;
+	 bottom: 0px;
+	 left: 0px;
+	 right: 0px;
+	
+	 position: absolute;
+	 
+}
+
+#container1 #richText1 {
+	 width: 222px;
+	 height: 44px;
+	 top: 175px;
+	 left: 193px;
+	
+	 position: absolute;
+	 font-family: 'Lucida Bright', Georgia, serif;
+	 font-size: 38px;
+	 font-weight: bold;
+	 text-shadow: rgb(255, 255, 255) 0px 0px 2px;
 	 
 }
 

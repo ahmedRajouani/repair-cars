@@ -10,10 +10,10 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 	documentEvent.onLoad = function documentEvent_onLoad (event)// @startlock
 	{// @endlock
-		$$("container1").center({center : 'vh'});
+		$$("container1").center({center : 'h'});
 		
 		$(window).resize(function(){
-			$$("container1").center({center : 'vh'});
+			$$("container1").center({center : 'h'});
 		});
 	};// @lock
 
