@@ -3,21 +3,200 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#container8 {
+	 width: 381px;
+	 height: 525px;
+	 top: 13px;
+	 left: 573px;
+	
+	 border-top-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	 border-top-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	 border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	 border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	 
+}
+
+#container7 {
+	 width: 360px;
+	 height: 461px;
+	 top: 17px;
+	 left: 601px;
+	
+	 border-top-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	 border-top-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	 border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	 border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	 
+}
+
+#component1 {
+	 width: 985px;
+	 height: 589px;
+	 top: 0px;
+	 left: -4px;
+	
+	 border-top-width: 0px;
+	 border-left-width: 0px;
+	 border-right-width: 0px;
+	 border-bottom-width: 0px;
+	 
+}
+
+#container5 {
+	 width: 365px;
+	 height: 464px;
+	 top: 16px;
+	 left: 596px;
+	
+	 border-top-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	 border-top-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	 border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	 border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	 
+}
+
+#dataGrid2 {
+	 width: 572px;
+	 height: 466px;
+	 top: 16px;
+	 left: 16px;
+	
+	 border-top-width: 0px;
+	 border-left-width: 0px;
+	 border-right-width: 0px;
+	 border-bottom-width: 0px;
+	 
+}
+
+#container6 {
+	 width: 364px;
+	 height: 469px;
+	 top: 13px;
+	 left: 601px;
+	
+	 border-top-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	 border-top-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	 border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	 border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	 
+}
+
+#container9 {
+	 top: 28px;
+	 bottom: 5px;
+	 left: 5px;
+	 right: 5px;
+	
+	 background-color: rgb(178, 178, 178);
+	 
+}
+
+#container4 {
+	 top: 28px;
+	 bottom: 5px;
+	 left: 5px;
+	 right: 5px;
+	
+	 background-color: rgb(178, 178, 178);
+	 
+}
+
+#container3 {
+	 top: 28px;
+	 bottom: 5px;
+	 left: 5px;
+	 right: 5px;
+	
+	 background-color: rgb(178, 178, 178);
+	 
+}
+
+#container2 {
+	 top: 28px;
+	 bottom: 5px;
+	 left: 5px;
+	 right: 5px;
+	
+	 background-color: rgb(178, 178, 178);
+	 
+}
+
+#Tabs {
+	 width: 989px;
+	 height: 840px;
+	 top: 108px;
+	 left: 10px;
+	
+	 background-color: rgb(153, 153, 153);
+	 border-top-width: 0px;
+	 border-left-width: 0px;
+	 border-right-width: 0px;
+	 border-bottom-width: 0px;
+	 border-top-style: solid;
+	 border-left-style: solid;
+	 border-right-style: solid;
+	 border-bottom-style: solid;
+	 border-top-left-radius: 21px;
+	-moz-border-radius-topleft: 21px;
+	 border-top-right-radius: 21px;
+	-moz-border-radius-topright: 21px;
+	 border-bottom-left-radius: 21px;
+	-moz-border-radius-bottomleft: 21px;
+	 border-bottom-right-radius: 21px;
+	-moz-border-radius-bottomright: 21px;
+	 
+}
+
+#container1 {
+	 top: 28px;
+	 bottom: 5px;
+	 left: 5px;
+	 right: 5px;
+	
+	 background-color: rgb(178, 178, 178);
+	 border-top-left-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	 border-top-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	 border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	 border-bottom-right-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	 
+}
+
 #frame1 {
 	 width: 521px;
-	 height: 539px;
+	 height: 635px;
 	 top: 49px;
 	 left: 438px;
 	
 	 position: absolute;
+	 background-color: rgb(204, 204, 204);
 	 
 }
 
 #button18 {
 	 width: 183px;
 	 height: 42px;
-	 top: 613px;
-	 left: 403px;
+	 top: 715px;
+	 left: 384px;
 	
 	 position: absolute;
 	 
@@ -25,7 +204,7 @@
 
 #dataGrid8 {
 	 width: 410px;
-	 height: 541px;
+	 height: 637px;
 	 top: 49px;
 	 left: 22px;
 	
@@ -40,6 +219,7 @@
 	 right: 5px;
 	
 	 position: absolute;
+	 background-color: rgb(178, 178, 178);
 	 
 }
 
@@ -107,20 +287,20 @@
 }
 
 #label19 {
-	 width: 51px;
-	 height: 16px;
-	 top: 65px;
-	 left: 39px;
+	 width: 58px;
+	 height: 15px;
+	 top: 65.5px;
+	 left: 32px;
 	
 	 position: absolute;
 	 
 }
 
 #label18 {
-	 width: 13px;
-	 height: 16px;
-	 top: 23px;
-	 left: 77px;
+	 width: 12px;
+	 height: 15px;
+	 top: 23.5px;
+	 left: 78px;
 	
 	 position: absolute;
 	 
@@ -128,8 +308,8 @@
 
 #label17 {
 	 width: 23px;
-	 height: 16px;
-	 top: 149px;
+	 height: 15px;
+	 top: 149.5px;
 	 left: 67px;
 	
 	 position: absolute;
@@ -137,50 +317,50 @@
 }
 
 #label16 {
-	 width: 29px;
-	 height: 16px;
-	 top: 107px;
-	 left: 61px;
+	 width: 35px;
+	 height: 15px;
+	 top: 107.5px;
+	 left: 55px;
 	
 	 position: absolute;
 	 
 }
 
 #label15 {
-	 width: 53px;
-	 height: 16px;
-	 top: 65px;
-	 left: 37px;
+	 width: 63px;
+	 height: 15px;
+	 top: 65.5px;
+	 left: 27px;
 	
 	 position: absolute;
 	 
 }
 
 #label14 {
-	 width: 13px;
-	 height: 16px;
-	 top: 23px;
-	 left: 77px;
+	 width: 12px;
+	 height: 15px;
+	 top: 23.5px;
+	 left: 78px;
 	
 	 position: absolute;
 	 
 }
 
 #label13 {
-	 width: 14px;
-	 height: 16px;
-	 top: 275px;
-	 left: 76px;
+	 width: 15px;
+	 height: 15px;
+	 top: 275.5px;
+	 left: 75px;
 	
 	 position: absolute;
 	 
 }
 
 #label12 {
-	 width: 16px;
-	 height: 16px;
-	 top: 233px;
-	 left: 74px;
+	 width: 17px;
+	 height: 15px;
+	 top: 233.5px;
+	 left: 73px;
 	
 	 position: absolute;
 	 
@@ -188,8 +368,8 @@
 
 #label11 {
 	 width: 19px;
-	 height: 16px;
-	 top: 191px;
+	 height: 15px;
+	 top: 191.5px;
 	 left: 71px;
 	
 	 position: absolute;
@@ -197,10 +377,10 @@
 }
 
 #label10 {
-	 width: 41px;
-	 height: 16px;
-	 top: 149px;
-	 left: 49px;
+	 width: 45px;
+	 height: 15px;
+	 top: 149.5px;
+	 left: 45px;
 	
 	 position: absolute;
 	 
@@ -448,8 +628,8 @@
 
 #container10 #Tabs #container1 #container5 #label2 {
 	 width: 75px;
-	 height: 16px;
-	 top: 23px;
+	 height: 15px;
+	 top: 23.5px;
 	 left: 37px;
 	
 	 position: absolute;
@@ -469,8 +649,8 @@
 
 #container10 #Tabs #container1 #container5 #label3 {
 	 width: 75px;
-	 height: 16px;
-	 top: 65px;
+	 height: 15px;
+	 top: 65.5px;
 	 left: 38px;
 	
 	 position: absolute;
@@ -490,8 +670,8 @@
 
 #container10 #Tabs #container1 #container5 #label4 {
 	 width: 75px;
-	 height: 16px;
-	 top: 107px;
+	 height: 15px;
+	 top: 107.5px;
 	 left: 38px;
 	
 	 position: absolute;
@@ -511,8 +691,8 @@
 
 #container10 #Tabs #container1 #container5 #label5 {
 	 width: 75px;
-	 height: 16px;
-	 top: 149px;
+	 height: 15px;
+	 top: 149.5px;
 	 left: 38px;
 	
 	 position: absolute;
@@ -592,20 +772,20 @@
 }
 
 #container10 #Tabs #container2 #dataGrid2 {
-	 width: 487px;
-	 height: 433px;
-	 top: 14px;
-	 left: 13px;
+	 width: 572px;
+	 height: 466px;
+	 top: 16px;
+	 left: 16px;
 	
 	 position: absolute;
 	 
 }
 
 #container10 #Tabs #container2 #container6 {
-	 width: 389px;
-	 height: 440px;
-	 top: 8px;
-	 left: 548px;
+	 width: 364px;
+	 height: 469px;
+	 top: 13px;
+	 left: 601px;
 	
 	 position: absolute;
 	 
@@ -613,8 +793,8 @@
 
 #container10 #Tabs #container2 #container6 #label7 {
 	 width: 75px;
-	 height: 16px;
-	 top: 23px;
+	 height: 15px;
+	 top: 23.5px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -634,8 +814,8 @@
 
 #container10 #Tabs #container2 #container6 #label8 {
 	 width: 75px;
-	 height: 16px;
-	 top: 65px;
+	 height: 15px;
+	 top: 65.5px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -655,8 +835,8 @@
 
 #container10 #Tabs #container2 #container6 #label9 {
 	 width: 75px;
-	 height: 16px;
-	 top: 107px;
+	 height: 15px;
+	 top: 107.5px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -757,8 +937,8 @@
 #container10 #Tabs #container2 #button10 {
 	 width: 92px;
 	 height: 22px;
-	 top: 460px;
-	 left: 408px;
+	 top: 498px;
+	 left: 472px;
 	
 	 position: absolute;
 	 
@@ -767,18 +947,18 @@
 #container10 #Tabs #container2 #button11 {
 	 width: 92px;
 	 height: 22px;
-	 top: 461px;
-	 left: 20px;
+	 top: 498px;
+	 left: 17px;
 	
 	 position: absolute;
 	 
 }
 
 #container10 #Tabs #container3 #container7 {
-	 width: 383px;
-	 height: 329px;
-	 top: 15px;
-	 left: 516px;
+	 width: 360px;
+	 height: 461px;
+	 top: 17px;
+	 left: 601px;
 	
 	 position: absolute;
 	 
@@ -827,8 +1007,8 @@
 #container10 #Tabs #container3 #button12 {
 	 width: 92px;
 	 height: 22px;
-	 top: 436px;
-	 left: 390px;
+	 top: 493px;
+	 left: 467px;
 	
 	 position: absolute;
 	 
@@ -837,8 +1017,8 @@
 #container10 #Tabs #container3 #button13 {
 	 width: 92px;
 	 height: 22px;
-	 top: 438px;
-	 left: 25px;
+	 top: 500px;
+	 left: 28px;
 	
 	 position: absolute;
 	 
@@ -865,8 +1045,8 @@
 }
 
 #container10 #Tabs #container4 #dataGrid4 {
-	 width: 476px;
-	 height: 356px;
+	 width: 527px;
+	 height: 478px;
 	 top: 13px;
 	 left: 31px;
 	
@@ -876,7 +1056,7 @@
 
 #container10 #Tabs #container4 #container8 {
 	 width: 381px;
-	 height: 543px;
+	 height: 525px;
 	 top: 13px;
 	 left: 573px;
 	
@@ -906,8 +1086,8 @@
 
 #container10 #Tabs #container4 #container8 #label20 {
 	 width: 75px;
-	 height: 16px;
-	 top: 146px;
+	 height: 15px;
+	 top: 146.5px;
 	 left: 15px;
 	
 	 position: absolute;
@@ -927,8 +1107,8 @@
 
 #container10 #Tabs #container4 #container8 #label21 {
 	 width: 75px;
-	 height: 16px;
-	 top: 244.5px;
+	 height: 15px;
+	 top: 245px;
 	 left: 12px;
 	
 	 position: absolute;
@@ -948,8 +1128,8 @@
 
 #container10 #Tabs #container4 #container8 #label22 {
 	 width: 75px;
-	 height: 16px;
-	 top: 304px;
+	 height: 15px;
+	 top: 304.5px;
 	 left: 12px;
 	
 	 position: absolute;
@@ -969,8 +1149,8 @@
 
 #container10 #Tabs #container4 #container8 #label23 {
 	 width: 75px;
-	 height: 16px;
-	 top: 344px;
+	 height: 15px;
+	 top: 344.5px;
 	 left: 11px;
 	
 	 position: absolute;
@@ -991,7 +1171,7 @@
 #container10 #Tabs #container4 #button20 {
 	 width: 92px;
 	 height: 22px;
-	 top: 382px;
+	 top: 509px;
 	 left: 35px;
 	
 	 position: absolute;
@@ -1001,38 +1181,38 @@
 #container10 #Tabs #container4 #button21 {
 	 width: 92px;
 	 height: 22px;
-	 top: 383px;
-	 left: 415px;
+	 top: 505px;
+	 left: 462px;
 	
 	 position: absolute;
 	 
 }
 
 #container10 #Tabs #container3 #dataGrid5 {
-	 width: 459px;
-	 height: 413px;
-	 top: 12px;
-	 left: 22px;
-	
-	 position: absolute;
-	 
-}
-
-#container10 #Tabs #container3 #autoForm7 {
-	 width: 469px;
-	 height: 309px;
-	 top: 469px;
+	 width: 567px;
+	 height: 464px;
+	 top: 16px;
 	 left: 16px;
 	
 	 position: absolute;
 	 
 }
 
+#container10 #Tabs #container3 #autoForm7 {
+	 width: 936px;
+	 height: 278px;
+	 top: 525px;
+	 left: 26px;
+	
+	 position: absolute;
+	 
+}
+
 #container10 #Tabs #container4 #autoForm1 {
-	 width: 429px;
-	 height: 251px;
-	 top: 427px;
-	 left: 49px;
+	 width: 922px;
+	 height: 229px;
+	 top: 573px;
+	 left: 40px;
 	
 	 position: absolute;
 	 
@@ -1089,20 +1269,20 @@
 }
 
 #container10 #Tabs #container9 #component1 {
-	 width: 844px;
-	 height: 368px;
-	 top: 15px;
-	 left: 56px;
+	 width: 985px;
+	 height: 589px;
+	 top: 0px;
+	 left: -4px;
 	
 	 position: absolute;
 	 
 }
 
 #container10 #Tabs #container4 #container8 #label28 {
-	 width: 47px;
+	 width: 46px;
 	 height: 14px;
 	 top: 423px;
-	 left: 14px;
+	 left: 15px;
 	
 	 position: absolute;
 	 

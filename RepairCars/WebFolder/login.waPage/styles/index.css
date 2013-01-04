@@ -3,6 +3,20 @@
 	Changes to this CSS file might be lost when it is regenerated.
 */
 
+#login1 {
+	 z-index: 1;
+	 width: 113px;
+	 height: 80px;
+	 top: 282px;
+	 left: 241px;
+	
+	 border-top-width: 0px;
+	 border-left-width: 0px;
+	 border-right-width: 0px;
+	 border-bottom-width: 0px;
+	 
+}
+
 #waf-body {
 	 background-image: none;
 	 
@@ -78,8 +92,8 @@
 }
 
 #container1 #richText1 {
-	 width: 222px;
-	 height: 44px;
+	 width: 223px;
+	 height: 45px;
 	 top: 175px;
 	 left: 193px;
 	

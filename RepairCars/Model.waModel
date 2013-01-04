@@ -7,8 +7,7 @@
 	<model ____objectunic="true">
 
 		<relationCurve ____objectunic="true" run="true" mode="1"/>
-
-	</model>
+</model>
 
 	<classes ____objectunic="true">
 
@@ -16,74 +15,58 @@
 
 			<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
-				<position ____objectunic="true" X="383" Y="40"/>
-
-			</panel>
-
-		</Car>
+				<position ____objectunic="true" X="658" Y="6"/>
+</panel>
+</Car>
 
 		<Customer ____objectunic="true" panelColor="#fff">
 
 			<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
-				<position ____objectunic="true" X="25" Y="40"/>
-
-			</panel>
-
-		</Customer>
+				<position ____objectunic="true" X="25" Y="188"/>
+</panel>
+</Customer>
 
 		<Employee ____objectunic="true" panelColor="#fff">
 
 			<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
-				<position ____objectunic="true" X="743" Y="207"/>
-
-			</panel>
-
-		</Employee>
+				<position ____objectunic="true" X="776" Y="335"/>
+</panel>
+</Employee>
 
 		<Repair ____objectunic="true" panelColor="#fff">
 
 			<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
-				<position ____objectunic="true" X="359" Y="461"/>
-
-			</panel>
-
-		</Repair>
+				<position ____objectunic="true" X="383" Y="458"/>
+</panel>
+</Repair>
 
 		<User ____objectunic="true" panelColor="#4FA997">
 
 			<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
-				<position ____objectunic="true" X="29" Y="486"/>
-
-			</panel>
-
-		</User>
+				<position ____objectunic="true" X="40" Y="550"/>
+</panel>
+</User>
 
 		<Invoice ____objectunic="true" panelColor="#B7DDE8">
 
-			<panel ____objectunic="true" isOpen="false" pathVisible="true">
+			<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
-				<position ____objectunic="true" X="756" Y="566"/>
-
-			</panel>
-
-		</Invoice>
+				<position ____objectunic="true" X="757" Y="609"/>
+</panel>
+</Invoice>
 
 		<Report ____objectunic="true" panelColor="#76923C">
 
 			<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
-				<position ____objectunic="true" X="305" Y="20"/>
-
-			</panel>
-
-		</Report>
-
-	</classes>
-
+				<position ____objectunic="true" X="213" Y="5"/>
+</panel>
+</Report>
+</classes>
 </extraProperties>
 
 <dataClasses name="Car" className="Car" collectionName="CarCollection" scope="public" uuid="4AACFD0F2C8F614ABA4D69263DAB13F2">
@@ -93,10 +76,8 @@
 		<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
 			<position ____objectunic="true" X="383" Y="40"/>
-
-		</panel>
-
-	</extraProperties>
+</panel>
+</extraProperties>
 
 	<attributes name="ID" kind="storage" scope="public" uuid="9A907D73314B9A42B19B342E359E384B" unique="true" autosequence="true" type="long" indexKind="btree" primKey="true"/>
 
@@ -119,10 +100,8 @@
 		<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
 			<position ____objectunic="true" X="25" Y="40"/>
-
-		</panel>
-
-	</extraProperties>
+</panel>
+</extraProperties>
 
 	<attributes name="ID" kind="storage" scope="public" uuid="83E404C4B5F54E4F90D45EB91941E93C" unique="true" autosequence="true" type="long" indexKind="btree" primKey="true"/>
 
@@ -151,10 +130,8 @@
 		<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
 			<position ____objectunic="true" X="743" Y="207"/>
-
-		</panel>
-
-	</extraProperties>
+</panel>
+</extraProperties>
 
 	<attributes name="ID" kind="storage" scope="public" uuid="DDB9DF0D6344D2478576703E3FB9D430" unique="true" autosequence="true" type="long" indexKind="btree" primKey="true"/>
 
@@ -193,10 +170,8 @@
 		<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
 			<position ____objectunic="true" X="384" Y="542"/>
-
-		</panel>
-
-	</extraProperties>
+</panel>
+</extraProperties>
 
 	<attributes name="ID" kind="storage" scope="public" uuid="A82DB5E6FFA8954A8ABAE26C3A87DB18" unique="true" autosequence="true" type="long" indexKind="btree" primKey="true"/>
 
@@ -216,6 +191,18 @@
 
 </dataClasses>
 
+<dataClasses name="Report" className="Report" collectionName="ReportCollection" scope="public" uuid="C1C635FB1AF9B64BBB16C809201F3503">
+
+	<attributes name="ID" kind="storage" scope="public" uuid="DAA16FB3FAFC8B4692BF41918C4B3EDF" unique="true" autosequence="true" type="long" primKey="true"/>
+
+	<attributes name="pdf" kind="storage" scope="public" uuid="BFE99260168B24489592ECD2271C659D" type="image"/>
+
+	<attributes name="pdfDate" kind="storage" scope="public" uuid="B9D3E53EC1CA8F4A9632465D55EEF487" type="date" simpleDate="false"/>
+
+	<attributes name="critere" kind="storage" scope="public" uuid="DCB8F79FEAC12A41AA2899F2922F3BFB" type="string"/>
+
+</dataClasses>
+
 <dataClasses name="User" className="User" collectionName="UserCollection" scope="public" uuid="D8945606AB7919469F8281EAA59BC0B1">
 
 	<extraProperties ____objectunic="true" panelColor="#4FA997">
@@ -223,10 +210,8 @@
 		<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
 			<position ____objectunic="true" X="23" Y="407"/>
-
-		</panel>
-
-	</extraProperties>
+</panel>
+</extraProperties>
 
 	<attributes name="ID" kind="storage" scope="public" uuid="44EEB5487906514B8B6CDA1FFE16D5B1" unique="true" autosequence="true" type="long" indexKind="btree" primKey="true"/>
 
@@ -237,18 +222,6 @@
 	<attributes name="password" kind="storage" scope="public" uuid="0D8145598D34BC4398AE1AB1E4380318" type="string"/>
 
 	<attributes name="isAdmin" kind="storage" scope="public" uuid="A92EC80240E9974D8B149BDB3ABA42AB" type="bool"/>
-
-</dataClasses>
-
-<dataClasses collectionName="ReportCollection" className="Report" uuid="C1C635FB1AF9B64BBB16C809201F3503">
-
-	<attributes name="ID" kind="storage" type="long" uuid="DAA16FB3FAFC8B4692BF41918C4B3EDF" autosequence="true" unique="true" primKey="true"/>
-
-	<attributes name="pdf" scope="public" uuid="BFE99260168B24489592ECD2271C659D" type="image" kind="storage"/>
-
-	<attributes name="pdfDate" scope="public" uuid="B9D3E53EC1CA8F4A9632465D55EEF487" type="date" kind="storage"/>
-
-	<attributes name="critere" scope="public" uuid="DCB8F79FEAC12A41AA2899F2922F3BFB" type="string" kind="storage"/>
 
 </dataClasses>
 </EntityModelCatalog>

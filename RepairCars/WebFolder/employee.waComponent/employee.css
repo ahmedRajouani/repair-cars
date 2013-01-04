@@ -4,22 +4,34 @@
 */
 
 #{id}dataGrid1 {
-	 width: 376px;
-	 height: 300px;
-	 top: 15px;
-	 left: 29px;
+	 width: 619px;
+	 height: 494px;
+	 top: 14px;
+	 left: 6px;
 	
 	 position: absolute;
+	 border-top-width: 4px;
+	 border-left-width: 4px;
+	 border-right-width: 4px;
+	 border-bottom-width: 4px;
 	 
 }
 
 #{id}container1 {
-	 width: 359px;
-	 height: 300px;
-	 top: 15px;
-	 left: 444px;
+	 width: 341px;
+	 height: 496px;
+	 top: 13px;
+	 left: 631px;
 	
 	 position: absolute;
+	 border-top-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	 border-top-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	 border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	 border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
 	 
 }
 

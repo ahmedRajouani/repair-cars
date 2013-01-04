@@ -88,6 +88,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		sources.repair.employee.set(sources.employee);
 		//sources.repair.type.set(sources.typeRepair.getSelection());
 		sources.repair.save();
+	
 	};// @lock
 
 	carEvent.onCurrentElementChange = function carEvent_onCurrentElementChange (event)// @startlock
@@ -99,6 +100,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	{// @endlock
 		sources.car.customer.set(sources.customer);
 		sources.car.save();
+		
 	};// @lock
 
 	documentEvent.onLoad = function documentEvent_onLoad (event)// @startlock

@@ -20,4 +20,7 @@
 //t.save()
 //ds.Report.remove();
 //ds.Report.remove();
-ds.Report.all();
+//ds.Repair.all();
+var car = ds.Repair.find('ID=:1',1);
+var a = car.car;
+a;	

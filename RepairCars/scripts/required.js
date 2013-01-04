@@ -20,7 +20,7 @@
             return { 
                 ID: p.ID, 
                 fullName:p.fullName, 
- 	name: p.fullName, 
+ 				name: p.fullName, 
                 belongsTo: theGroups,
                 storage:{
                     time: connectTime,
